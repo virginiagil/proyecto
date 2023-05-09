@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pagina Web</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <header class="header" id="inicio">
+    <img src="img/hamburgesa.svg" alt="" class="hamburguesa">
+    <nav class="menu-navegacion">
+      <a href="#inicio"> Inicio </a>
+      <a href="#nosotros"> Nosotros</a>
+      <a href="#tipos de cafe"> Tipos de Cafe </a>
+      <a href="#expertos"> Expertos </a>
+       <a href="#contacto"> Contacto </a>
+      <a href="#formulario"> Formulario </a>
+      <a href="#redes"> Redes </a>
+
+
+    </nav>
+
+    <div class="contenedor head">
+
+      <h1 class="titulo">Piensa,Cree,Sueña & Atrevete </h1>
+      <p class="copy">Maria Gil</p>
+
+    </div>
+
+  </header>
+  
+  <main>
+    <section class="services.contenedor" id="nosotros">
+      <h2 class="subtitulo">Nosotros</h2>
+      <div class="contenedor-service " id="servicio">
+        <img src="img/mujerOMG-700x743-1.webp" alt="">
+        <div class="checklist-service">
+          <div class="service">
+            <h3 class="n-service"><span class="number">1</span>Mision</h3>
+            <p>Inspirar y nutrir el alma humana de cada persona, con una taza de café. Ser el café esencial del hogar y
+              de la industria, que complementa la forma en que trabajamos.</p>
+            <div class="service">
+              <h3 class="n-service"><span class="number">2</span>Vision</h3>
+              <p>Ser la empresa con los mejores estándares de calidad en productos de café y número uno en el marcado.
+              </p>
+              <h3 class="n-service"><span class="number">3</span>Valores</h3>
+              <p>• Profesionalismo.
+                • Calidad.
+                • Honestidad.
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+    </section>
+    <section class="Tipos de Cafe" id="tipos de cafe">
+      <div class="contenedor">
+        <h2 class="subtitulo">Tipos de Cafe</h2>
+        <div class="contenedor-galeria">
+          <img src="img/cafe8.webp" alt="" class="img-galeria img-1">
+          <img src="img/calientes_0005_Cappuccino.jpg" alt="" class="img-galeria img-2">
+          <img src="img/cafe-americano.jpg" alt="" class="img-galeria img-3">
+        
+        </div>
+      </div>
+    </section>
+    <!---section class="imagen-light">
+                <img src="img/x.svg" alt="" class="close">
+                <img src="img/cafe1.jpg" alt="" class="Agregar imagen">
+            </section>--->
+            <section class="modal ocultar">
+              <div class="contenedor_modal">
+                <span class="icono"><img src="ico.svg" alt=""></span>
+                <div class="contenedor_modal_img">
+                  <img class="imagen_modal" alt="">
+                </div>
+                <div class="contenedor_modal_text">
+                  <div class="contenedor_modal_titulo">
+                    <h2 id="modal_titulo"></h2>
+                  </div>
+                  <div class="contenedor_modal_texto">
+                    <p id="modal_parrafo">
+                      </p>
+                  </div>
+                </div>
+                
+
+              </div>
+             </section>
+    <section class="contenedor" id="expertos">
+      <h2 class="subtitulo"> Experto en:</h2>
+      <section class="experts">
+        <div class="cont-expert">
+          <img src="img/expertos 1.avif" alt="">
+          <h3 class="n-expert">Latte Macchiato </h3>
+          </div>
+        <div class="cont-expert">
+          <img src="img/expertos 2.webp" alt="">
+          <h3 class="n-expert">Flat White </h3>
+          <p></p>
+        </div>
+          <div class="cont-expert">
+          <img src="img/expertos 3.webp" alt="">
+          <h3 class="n-expert">Espresso Macchiato </h3>
+          </div>  
+           
+            
+        <section class="info container" id="contacto">
+          <h2 class="subtitulo">Contacto</h2> 
+          <div class="info_contenedor">
+            <div class="info-1">
+              <img src="img/reloj.jpg" alt="">
+              <h3>Horario</h3>
+              <p>Lunes a viernes 9Am a 6PM
+                  Sabado: 9AM a 3:00PM</p>
+              </div>
+ 
+              <div class="info-1">
+              <img src="img/ubicacion.webp"  alt="">
+              <h3>Ubicacion</h3>
+              <p>Av. Rafael Augusto Sanchez,Esq.Lope de Vega, Plaza Maria</p>
+             </div>
+             
+               <div class="info-1">
+              <img src="img/telefono.jpg" alt="">
+              <h3>Telefono</h3>
+              <p>809-547-3879/809-564-3037.</p>
+ 
+              </div>
+          </div>
+             
+       </section>
+      
+        <div class="form" id="formulario">
+          <h2>Envie su formulario</h2>
+          <div class="grupo">
+            <label form="Nombre">Nombre</label>
+            <input type="text" name="" placeholder="Escriba su nombre" id=name required>
+
+          </div>
+          <div class="grupo">
+            <label form="Email">Email</label>
+            <input type="email" name="" placeholder="Escribe tu correo" required> 
+
+          </div>
+
+
+          <section>
+          <div class="grupo">
+            <label form="password">password</label>
+            <input type="password" name="" placeholder="Escriba su contraseña" required>
+
+          </div>
+          <textarea cols="15" rows="5" placeholder="Escribe tu pregnta o comentario"></textarea>
+          <div class="btn_cont">
+            <input type="submit" class="btn_enviar" value="Enviar">
+          </div>
+
+          <div class="grupo chek">
+            <input type="checkbox" name="" id="">
+            <label form="">¿Quieres que te conctatemos</label>
+
+          </div>
+          <div class="grupo chek">
+            <input type="checkbox" name="" id="">
+            <label form="">¿Quieres recibir comunicaciones de la marca</label>
+
+          </div>
+
+          <input type="submit" value="Registrar" class="botones_formulario">
+
+          <input type="submit" value="Borrar" class="botones_formulario">
+
+
+          <select id="sexo" class="botones_formulario">
+
+            <option value="Hombres">Hombres</option>
+            <option value="Mujer">Mujer</option>
+          </select>
+
+      </section>
+
+
+      </form>
+      </div>
+
+
+
+
+
+
+      </imput>
+      </div>
+
+
+
+    </section>
+
+    </select>
+  </main>
+  <footer id="contacto">
+    <div class="contenedor footer-content">
+      <div class="Contact-us">
+        <h2 class="brand">Maria Gil</h2>
+        <p> Trabaje de manera inteligente,no de manera dura</p>
+
+      </div>
+      
+
+
+      <div class="social-media" id="redes">
+      <a href="https://es-la.facebook.com" class="social-media-icon">
+          <i class='bx bxl-facebook'></i>
+      </a>
+      <a href="https://twitter.com/?lang=es" class="social-media-icon">
+          <i class='bx bxl-twitter'></i>
+      </a>
+      <a href="https://www.instagram.com/" class="social-media-icon">
+          <i class='bx bxl-instagram'></i>
+      </a>
+  </div>
+  </div>
+
+
+
+        <div class="line"></div>
+
+  </footer>
+
+
+
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>
